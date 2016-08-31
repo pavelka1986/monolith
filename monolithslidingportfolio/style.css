@@ -1,0 +1,328 @@
+/*Theme Name: MonolithSlidingPortfolioTheme URI: http://monolith.ledec-nad-sazavou.czDescription: Portfolio Wordpress ThemeAuthor: the David PavelkaVersion: 1.1*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-size: 100%;
+	font: inherit;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	vertical-align: baseline
+}
+body {
+	line-height: 1
+}
+ol, ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+.sticky {
+}
+.bypostauthor {
+}
+.wp-caption {
+}
+.wp-caption-text {
+}
+.gallery-caption {
+}
+.alignright {
+}
+.alignleft {
+}
+.aligncenter {
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%;
+	background: url('images/noisy_net.png') repeat left top;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+body .home {
+	background: #000;
+}
+header {
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
+/*swing*/
+#wrapper {
+	width: 960px;
+	position: relative;
+	margin: 0px auto;
+	/*background: #646B77;
+*/
+	/*background: url('images/office.png') repeat left top;*/
+}
+.home #wrapper {
+	background: none;
+}
+.home #wrapper, .home #container, .home #content, .home .wrapper, .home .acme_portfolio, .home .portfolios {
+	margin: auto;
+	min-height: 100%;
+	height: 100%;
+	overflow: hidden !important;
+	text-align: center;
+	width: auto;
+}
+.swing .acme_portfolio {
+	width: 376px;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+.swing .acme_portfolio a
+{
+  text-decoration: none;
+  /*text-shadow: 1px 1px #000;*/
+}
+.swing .acme_portfolio .detail
+{
+  position: relative;
+  margin: 0px auto;
+  padding: 5px 10px;
+  background: #DCE0DF;
+  color: #575959;
+  text-align: center;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  width: 100px;  
+}
+.portfoliocontent {
+	position: absolute;
+	top: 200px;
+	left: 10px;
+	width: 360px;
+	display: none;
+	background: #000;
+	opacity: 0.8;
+}
+.portfolios h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+.portfolios h2 a {
+	text-decoration: none;
+}
+.portfolios .entry-content {
+	font-size: 13px;
+	text-align: justify;
+	padding: 20px;
+
+}
+/*portfolio navigation*/
+.navleft, .navright {
+	width: 200px;
+	height: 200px;
+	background: red;
+	z-index: 1000;
+	display: none;
+}
+.navleft {
+	position: absolute;
+	top: 80px;
+	left: 100px;
+}
+.navright {
+	position: absolute;
+	top: 80px;
+	right: 100px;
+}
+/*all*/
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 22px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 18px;
+}
+h1, h2, h3, h4 {
+	margin: 10px auto;
+	color: #eee;
+}
+p {
+	margin: 15px auto;
+}
+.cleaner {
+	clear: both;
+	height: 1px;
+	border: none;
+	margin: -1em 0 0 0;
+	visibility: hidden;
+	padding-bottom: 1px;
+}
+a {
+	color: #fff;
+}
+/*header navi*/
+.headermenu {
+	margin: 0px auto;
+	text-align: center;
+	width: 100%;
+	z-index: 1000;
+	background: #000;
+	opacity: 0.5;
+	display: none;
+}
+.home .headermenu {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: block;
+}
+header .headermenu ul {
+}
+header .headermenu ul li {
+	float: left;
+}
+header .headermenu ul li a {
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: normal;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 8px 17px
+}
+/*article*/
+article {
+	text-align: left!important;
+	padding: 20px 40px 40px 40px;
+	/*background: #646B77;
+*/
+}
+#form-allowed-tags {
+	display: none;
+}
+#respond h3 {
+	cursor: pointer;
+}
+.formcontainer {
+	display: none;
+}
+/*comment*/
+.comment-author {
+	float: left;
+	margin: 10px;
+	width: 100px;
+}
+span.fn {
+	display: block;
+}
+/*navigation*/
+#nav-above {
+	display: none;
+}
+/*portfolio detail*/
+.acme_portfolio .entry-content .wp-post-image {
+	float: left;
+	margin: 10px;
+}
+/*default wp img*/
+.alignleft, img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.alignright, img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+.aligncenter, img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft, img.alignright, img.aligncenter {
+	margin-bottom: 12px;
+}
+/*form*/
+form {
+	width: 300px;
+}
+form label {
+	display: block;
+	padding: 5px 0px;
+}
+span.required
+{
+  display: inline-block;
+}
+form input {
+	width: 300px;
+	height: 26px;
+	background: #1b1b1b;
+	border: solid 1px #000;
+	color: #fff;
+	padding-left: 5px;
+}
+form textarea {
+	width: 300px;
+	height: 100px;
+	background: #1b1b1b;
+	border: solid 1px #000;
+	color: #fff;
+	padding-left: 5px;
+}
+p.submit input {
+	width: 100px;
+	background: #1b1b1b;
+	border: solid 1px #000;
+	color: #fff;
+	padding-left: 5px;
+}
+/*framework*/
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.w100 {
+	width: 100px;
+}
+.w200 {
+	width: 200px;
+}
+.w300 {
+	width: 300px;
+}
+.w400 {
+	width: 400px;
+}
+.w500 {
+	width: 500px;
+}
+.w600 {
+	width: 600px;
+}
